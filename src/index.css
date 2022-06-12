@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 50px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -12,4 +12,29 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1{
+  font-size: 2.5rem;
+  font-family: 'Livvic';
+  font-style: italic;
+  line-height: 1.2;
+  margin-bottom: 2.2rem;
+}
+
+h2{
+  font-size: 1.7rem;
+  font-family: 'Livvic';
+  font-style: italic;
+  line-height: 1.2;
+  margin-bottom: 2.2rem;
+  text-transform: capitalize;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-family: 'Livvic';
+  font-style: italic;
+  line-height: 1.2;
+  margin-bottom: 2.2rem;
 }
