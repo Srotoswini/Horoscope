@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Astro/static/css/main.0fd79108.css",
-    "main.js": "/Astro/static/js/main.7661d0f1.js",
-    "static/js/787.7e76c30a.chunk.js": "/Astro/static/js/787.7e76c30a.chunk.js",
-    "index.html": "/Astro/index.html",
-    "main.0fd79108.css.map": "/Astro/static/css/main.0fd79108.css.map",
-    "main.7661d0f1.js.map": "/Astro/static/js/main.7661d0f1.js.map",
-    "787.7e76c30a.chunk.js.map": "/Astro/static/js/787.7e76c30a.chunk.js.map"
+    "main.css": "/Horoscope/static/css/main.0fd79108.css",
+    "main.js": "/Horoscope/static/js/main.a918266c.js",
+    "static/js/787.7e76c30a.chunk.js": "/Horoscope/static/js/787.7e76c30a.chunk.js",
+    "index.html": "/Horoscope/index.html",
+    "main.0fd79108.css.map": "/Horoscope/static/css/main.0fd79108.css.map",
+    "main.a918266c.js.map": "/Horoscope/static/js/main.a918266c.js.map",
+    "787.7e76c30a.chunk.js.map": "/Horoscope/static/js/787.7e76c30a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0fd79108.css",
-    "static/js/main.7661d0f1.js"
+    "static/js/main.a918266c.js"
   ]
 }
