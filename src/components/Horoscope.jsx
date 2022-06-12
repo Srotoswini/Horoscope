@@ -10,8 +10,8 @@ export const Horoscope = ({ sign, time }) => {
   });
   return (
     <div>
-      <h2>Your horoscope for {time} is...</h2>
-      <p> {horoscope} </p>
+      <h2> {sign} Your horoscope for {time} is...</h2>
+      <h3> {horoscope} </h3> 
     </div>
   );
 };
