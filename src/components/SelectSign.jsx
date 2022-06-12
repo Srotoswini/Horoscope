@@ -9,15 +9,10 @@ export const SelectSign = ({ setSelectedSign }) => {
   });
   return (
     <>
-      <h2>Please select your zodiac sign</h2>
+      <h2>Please select your zodiac sign!</h2>
       <div className="grid">
         {signs.map((sign) => (
-          <button
-            className="sign"
-            key={sign}
-            onClick={() => setSelectedSign(sign)}
-          >
-            {sign}
+          <button className="sign" key={sign} onClick={() => setSelectedSign(sign)}> {sign}
           </button>
         ))}
       </div>
