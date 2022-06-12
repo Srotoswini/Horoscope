@@ -17,7 +17,18 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hello Hackers !</h1>
+       <h1>Horoscope</h1>
+          {!selectedSign && 
+          (<SelectSign 
+          setSelectedSign={setSelectedSign}/>)}
+
+          {selectedSign && !selectedTime && (<SelectTime setSelectedTime={setSelectedTime}  />)}
+
+          {selectedSign && selectedTime && (<Horoscope 
+          time={selectedTime} 
+          sign={selectedSign}/>)} 
+
+      <button className="restart" onClick={restart}> Restart</button>   
     </div>
   );
 }
